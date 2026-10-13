@@ -1,6 +1,6 @@
 cask "pocketwerk" do
-  version "1.0.0"
-  sha256 "259170dc2d7d3936686a0776d68c22a0d68bca71dd3a68b725b6a4b74a9c0034"
+  version "1.1.0"
+  sha256 "f59647d18f402b61d4dc81d719eafb650e1e4d27edc8851b300eb232782acd9f"
 
   url "https://github.com/DigitalIQ/pocketwerk/releases/download/v#{version}/Pocketwerk-#{version}.dmg"
   name "Pocketwerk"
