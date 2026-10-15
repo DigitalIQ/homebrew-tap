@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 cask "blackhole-wallpaper" do
   version "1.0.0"
   sha256 "7d6faab019c677a1af005618ecd6fc72050cf8ed19072c68cc11e527f17570ed"
@@ -10,9 +12,8 @@ cask "blackhole-wallpaper" do
   # The app checks GitHub for updates. Installed with Homebrew it does not replace itself,
   # it tells the user to run: brew upgrade --cask blackhole-wallpaper
   auto_updates true
-
-  depends_on macos: ">= :sequoia"
   depends_on arch: :arm64
+  depends_on macos: ">= :sequoia"
 
   app "BlackHoleWallpaper.app"
   screen_saver "Schwarzes Loch.saver"
